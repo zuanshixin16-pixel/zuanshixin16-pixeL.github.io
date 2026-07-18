@@ -565,6 +565,7 @@
     btn.addEventListener('click', function(){ setLang(btn.getAttribute('data-lang')); });
   });
 
+  setLang('hans');
   window.addEventListener('load', function(){ setupThread(); updateThread(); });
   window.addEventListener('resize', function(){ setupThread(); updateThread(); });
   window.addEventListener('scroll', updateThread, { passive: true });
